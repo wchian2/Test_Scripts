@@ -49,4 +49,7 @@ user3_review = "Where do I begin??? It was bad. Not useful at all"
 
 print(rating_predictor(user1_review)) # prints "Good review" ... accurate
 print(rating_predictor(user2_review)) # prints "Bad review" ... accurate
-print(rating_predictor(user3_review)) # prints "Good review" ... wrong, bad=-1 score, useful=2, total=1... but the function does not account for the "not" before the "useful"
+
+print(rating_predictor(user3_review))
+# prints "Good review" ... wrong, bad=-1 score, useful=2, total=1...
+# but the function does not account for the "not" before the "useful"
